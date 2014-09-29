@@ -122,6 +122,8 @@ itself
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
+Also see [ROADMAP.md](ROADMAP.md)
+
 ##LICENSE
 
 All code is under a GNU GPL v3 license (http://www.gnu.org/licenses/gpl.html),
