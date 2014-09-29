@@ -206,3 +206,14 @@
 
 /turf/simulated/floor/plating/snow/ex_act(severity)
 	return
+
+/turf/simulated/floor/plating/arctic //floor piece
+	name = "Arctic"
+	icon = 'icons/turf/floors.dmi'
+	icon_state = "snow"
+	icon_plating = "snow"
+	icon_regular_floor = "floor"
+	temperature = TCMB
+
+/turf/simulated/floor/plating/arctic/ex_act(severity)
+	return

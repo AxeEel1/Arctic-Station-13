@@ -21,7 +21,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	var/poweralm = 1
 	var/party = null
 	level = null
-	name = "Space"
+	name = "Arctic"
 	icon = 'icons/turf/areas.dmi'
 	icon_state = "unknown"
 	layer = 10
@@ -45,7 +45,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	var/static_light = 0
 	var/static_environ
 
-	var/has_gravity = 0
+	var/has_gravity = 1
 
 	var/no_air = null
 	var/area/master				// master area used for power calcluations
@@ -120,7 +120,8 @@ proc/process_ghost_teleport_locs()
 	icon_state = "start"
 
 /area/space
-	icon_state = "space"
+	icon_state = "snow"
+	has_gravity = 1
 	requires_power = 1
 	always_unpowered = 1
 	lighting_use_dynamic = 0
