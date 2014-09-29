@@ -1,3 +1,4 @@
+//Unused, this is only here as an artifact to prevent issues.
 /turf/space
 	icon = 'icons/turf/space.dmi'
 	name = "\proper snow"
